@@ -98,7 +98,7 @@
      "responses": ["Cheer up; do not let the small matters in life weigh you down. Don’t mess up your time hating anyone, life is too valuable ", "Give it time, relax and don't let anxiety hold you down with its claws. It can only get better! Cheer up"],
      "context": [""]
     },
-   { "tags" : "guilty",
+   { "tag" : "guilty",
    "patterns": [
         "how can i forgive myself","something happened that i cannot forgive myself for","i feel ashamed and guilty even though my loved ones forgave me "
       ],
