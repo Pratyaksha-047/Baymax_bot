@@ -1,0 +1,144 @@
+{"intents": [
+    {"tag": "greetings",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help! My good wishes are with you", "Any time! My good wishes are with you", "My pleasure"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+     "responses": ["I can cheer you up and I can give you some advices"],
+     "context": [""]
+    },
+    {"tag": "study_motivation",
+     "patterns": ["I am not able to focus in studies", "How can i focus more in studies ", "How I can improve my concentration", "Give me some advise on studying", "I don't feel like studying" ],
+     "responses": ["Push yourself, because no one else is going to do it for you.", "There are no shortcuts to any place worth going.", "The secret of getting ahead is getting started."],
+     "context": [""]
+    },
+    {"tag": "fitness_motivation",
+     "patterns": ["I have started gaining weight, I am really very tensed ", "I don't like to work out", "my body pains, I feel like giving up", "I crave for junk food and end up messing my healthy routine", "I feel guilty for eating junk food all the time but I am not able to stop myself" ],
+     "responses": ["All progress takes place outside the comfort zone.","A champion is someone who gets up when they can’t"],
+     "context": [""]
+    },
+    {"tag": "failure_motivation",
+     "patterns": ["I failed in my test today", "I try so hard but end up doing mistakes", "Why it always happens to me", "I stopped trying because I couldn't win the match", "students were teasing me because I failed in the test" ],
+     "responses": ["Success is stumbling from failure to failure with no loss of enthusiasm.", "It is a temporary detour, not a dead end.","You build on failure. You use it as a stepping stone. Close the door on the past. You don't try to forget the mistakes, but you don't dwell on it. You don't let it have any of your energy, or any of your time, or any of your space."],
+     "context": [""]
+    },
+    {"tag": "moral values",
+     "patterns": ["my parents always scolds me ,i don't like it","I get angry when they scold me"],
+     "responses": ["Parents are your well wishers. Even if they scold you , you should take a step back and think what you did wrong. Having a bigger picture of the situation will help you to get through it. "],
+     "context": [""]
+    },
+    {"tag": "bullying",
+     "patterns": ["my friends were trying to force me to perform a humiliating task","I was bullied" ],
+     "responses": ["There are times when you respect your own boundaries and confront the bullies on their humiliation tactics. People with a bullying mentality don’t always verbally express the fact that they are bullies. They sometimes reveal themselves to be bullies through their actions, this is where you speak up"],
+     "context": [""]
+    },
+    {"tag": "loneliness",
+     "patterns": ["I feel lonely", "I feel side lined among my friends","I think I don't belong here","Nobody likes me"],
+     "responses": ["We must become so alone, so utterly alone, that we withdraw into our innermost self. It is a way of bitter suffering. But then our solitude is overcome, we are no longer alone, for we find that our innermost self is the spirit, that it is God, the indivisible.", "If you will be happy with yourself, give time to yourself to grow, work upon yourself while you are alone. You will attract good thing in your life"],
+     "context": [""]
+    },
+    {"tag": "consistent",
+     "patterns": ["I am not able to stay consistent even after trying many times", "consistency is not my cup of tea", "staying consistent is so hard" , "how to stay consistent"],
+     "responses": ["The key to success is consistency. And right now, the only way for you to actually take action is to believe in yourself.","Success is the sum of small efforts, repeated day in and day out."],
+     "context": [""]
+    },
+    {"tag": "success",
+     "patterns": ["I want to be successful but I don't know if I am capable or not","How to become successful","How to become successful overnight"],
+     "responses": ["It is better to fail in originality than to succeed in imitation.","Successful people do what unsuccessful people are not willing to do. Don't wish it were easier; wish you were better."],
+     "context": [""]
+    },
+    {"tag": "life",
+     "patterns": ["I don't know what to do in my life", "I am scared if i will end up ending my life","I don't want to live"],
+     "responses": ["The purpose of our lives is to be happy. If you are happy then you will always end up attracting good things to yourself. Life is easy. It's all about the way you want to think about it."],
+     "context": [""]
+    },
+  {"tag": "love",
+     "patterns": ["I think I am in love", "My thoughts revolve around them","I want to be with them"],
+     "responses": ["That’s great news. Love is a very important part of our lives. I hope you can confess soon if you haven’t yet."],
+     "context": [""]
+    },
+    {"tag" : "jealous",
+     "patterns" : ["My Best friend always score better than me", "My friend is more popular than me", "I want to be as rich as my neighbor", "Why am i jealous of other’s success",  "i feel jealous when i don’t receive the same kind of attention as my friend receives"  ],
+     "responses" : ["Jealousy and envy are normal human emotions. What’s truly powerful is your capability to choose how to react to those feelings.How you respond to your own jealousy will either make or break your sanity in the relationship"],
+     "context" : [""]
+    },
+  {"tag": "angry",
+     "patterns": ["I’m mad", "I am angry","What the hell was today","Today made me really really angry", "AHHHHH", "I WANT TO SCREAM"],
+     "responses": ["Calm down and lets work things out", "cool yourself, don't let anger get the best of you"],
+     "context": [""]
+    },
+{"tag": "depression",
+"patterns": [
+  "can i change my feeling of being worthless to everyone","i'm going through some things with my feelings and myself","i barely sleep and i do nothing but think about how i'm worthless and how i shouldn't be here","I have depression issues"
+],
+"responses": [
+  "I understand, many things in life can trigger such feelings, but remember you are not alone in this battle,there are people who care for you. Talk to them and make them realize how you feel for whatever reason that is." 
+],
+"context": [""]
+   },
+   {"tag": "unhappy",
+     "patterns": ["my day was horrible", "I am sad","I don't feel very well" , "I am disappointed", "I am unhappy","I am not very good"],
+     "responses": ["Cheer up; do not let the small matters in life weigh you down. Don’t mess up your time hating anyone, life is too valuable ", "Give it time, relax and don't let anxiety hold you down with its claws. It can only get better! Cheer up"],
+     "context": [""]
+    },
+   { "tags" : "guilty",
+   "patterns": [
+        "how can i forgive myself","something happened that i cannot forgive myself for","i feel ashamed and guilty even though my loved ones forgave me "
+      ],
+      "responses": [
+        "i totally get how it can be more difficult to forgive ourselves than to forgive others . my guess is that you tend to come down too hard on yourself a lot . that's a huge barrier to happiness that you can work to reduce . i'll get you started . you feel shame in a debilitating way that is probably way out of proportion to the incident . is it triggering some old shame? I get it but you have to let go of the past to move forward. Past cannot be changed, only your present.", 
+"realize that you are human , not perfect and will make the wrong decisions at times . that is ok , we all have . However , the best way is to say ok , i did it , learned from it , will not do that again . ever ! ! ! you can get past it ; grow from it . Unfortunately , we forgive others faster than we do ourselves because we hold ourselves to higher standards or expect better behavior from ourselves . it can be embarrassing , hurtful , almost unforgiving at times . But how do you forgive yourself ? take a deep breathe . . . . . and then acknowledge that you did something wrong , acknowledge it , and say to self , \" i forgive me \" . just like you would say to someone else . this starts the process of forgiving . also ask yourself these questions : what lesson did i learn ? What would I have done differently ? What will be a trigger that will make me do that again , if I happen to be weak or tempted ? avoid or prepare for those triggers . . . . forgiving yourself will set you free from the prison you have put yourself in . you would start back living ."
+
+      ],
+"context" : [""]
+ },
+
+{"tag": "social anxiety",
+     "patterns": ["why am i so nervous talking to people? whether it ' s to a guy or girl” , “i always feel insecure talking” , “i am afraid of embarrassing myself and not being good enough”,”even while walking, i worry about my appearance and facial expression and such ."
+],
+     "responses": ["hi . I'm glad you wrote , because I think a lot of people have this same issue ( to different degrees ) and we don ' t talk about it much . you have some social anxiety that is a bit beyond what the average person might feel . most people have some amount of worry about what others might think of them , and this probably prevents us from making complete fools of ourselves so that's a good thing . but your \" alarm system \" is out of whack and you are spending too much time worrying about how you come across . as you age you understand this more , and it ' s true . . . that other people really aren't thinking about you much or monitoring you at all ; they're too busy having the same thoughts you're having ! am i good enough ? do people like me , judge me . . . think i'm weird ? we're all concerned about how we come across far more than how others come across . like many people , you lack compassion for yourself , acceptance of yourself and confidence in yourself . my gut says that these things came from somewhere in your past . our sensitivities usually come from ( as well as genetics ) a specific time in our life when we experienced"
+],
+     "context": [""]
+    },
+
+{"tag": "self_hatred",
+     "patterns": ["i hate the way i look”, i hate everything i see in the mirror” , “i don ' t like being in pictures and always scribble out my face" , "how can i not hate myself",  "i feel like i ' m ugly , stupid , useless , and that i can ' t make anyone happy ."
+
+
+],
+     "responses": ["this is so very common in this crazy looks - obsessed world ! I meet so many beautiful people who can ' t see their beauty . Is there something getting in the way for you ? Was there a time in your life when people teased you or told you something hurtful , or did something to you that made you feel ugly ? If so , this can be addressed first . Sometimes stories are told about us when we 're young and the best thing we can do is see the author ' s evil or careless intent and not take that on . a therapist can help you with this part . Once you ' ve addressed any past barriers to feeling confident , you can focus on a few simple things . First , your thoughts . If you keep telling yourself that you don ' t like what you see , then you will never feel okay about your looks . experiment with telling yourself something different . look in the mirror and i dare you to find something that ' s lovely about your face . focus on that . Describe what you see ? If you were your own best friend , what would you say about your face ? eliminating those negative scripts and building new positive ones will help you feel more accepting of how you look . you can ' t change your face , but you can"
+
+],
+     "context": [""]
+    },
+
+{"tag": "self_esteem",
+     "patterns": ["why do i feel like i can never meet people ' s expectations”,  “i feel like every time i do something someone asks me to , i never fully meet what they want” ,“i feel that when i finish it , they always think that they should have picked someone else to do it”, “i feel like they just want nothing to do with me ." , "why do i have low self - esteem and lack confidence ? i always need alcohol to feel better and use that as a excuse ."
+],
+     "responses": ["it sounds like you have the perception that people are frequently disappointed in you , wish you were different or someone else , and ultimately reject you . one question I would have for you is what is your evidence that people feel this way ? Is there anything in people ' s words or behaviors that gives you this impression ? If you're not sure , it may be useful for you to try to notice what people say and do in response to you , even though you perceive these attitudes within them . Additionally , working with a competent therapist may be a great way to get an answer to your question as well as developing ways to move forward with that answer and gain a sense of self - esteem and security in your relationships . one possibility that comes to mind , of which there may be more , is that as we grow up , we often develop relational templates , or sets of expectations about how people are and will relate to us , which influence our experiences and behavior in relationships . Sometimes the templates that we develop to stay connected growing up are not particularly adaptive for adult life and can hamper our self - esteem and capacity for comfortable intimacy as an adult . you ask a great question here , and one that can be very hard to see through , given the difficulty of", "as long as you try to reach others expectations you will never feel satisfied or accepted . how about setting your own expectations for self and strive for those . make sure your expectations are reachable and realistic ." ],
+     "context": [""]
+    },
+
+{"tag":"crisis",
+"patterns":["Why do we need to live", "what is the purpose of living", "i wish i could end myself", "i wonder what does afterlife look like", "i don’t wanna live anymore", "i wanna kill myself", "how do i box myself forever"],
+"responses": ["Hey, it looks like you need more help than I can offer. Why don’t you try contacting any of the following helplines? I am sure they will be able to help you out and make you feel better! <br> Lifeline: 033-24637401 <br> Samaritans Mumbai: 91 84229 84528 <br> Sumaitri: 011-23389090 <br> iCALL: 022-25521111 <br> Crisis Help Websites: https://www.mpowerminds.com/seekhelp , https://thelivelovelaughfoundation.org/helpline.html#helplinenumbers"] }
+
+]
+}
